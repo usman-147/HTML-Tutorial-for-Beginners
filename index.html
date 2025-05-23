@@ -1,0 +1,167 @@
+<!DOCTYPE html> <!--tells browser you are using HTML5-->
+<html lang="en"> <!--root of an html document-->
+<head> <!--container for metadata-->
+    <meta charset="UTF-8"> <!--Unicode Transfer Format-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title> <!--page title-->
+</head>
+<body> <!--contains all data rendered by the browser-->
+    <h1>Hello World!</h1> <!--heading tag-->
+    <h1>Heading 1</h1>
+    <h2>Heaading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <hr>
+    <!-- use control and forward slash to comment -->
+    <p>sample paragraph aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p> paragraph tag
+    <hr>
+    <a href="https://www.google.com/"> Google</a> <!--absolute link--> <br>
+    <a href="/hello.html">Hello</a> <!--do not use https, relative link--> <br>
+    <a href="/folder/hi.html">Hi</a> <br>
+    <img src="/photo.jpeg" alt="photo" height="100" width="50"> <!--alt for labelling, use height or width at once--> <br>
+    <hr>
+    <b>BOLD</b><br>
+    <i>Italic</i><br>
+    <u>Underlined</u><br>
+    <p>
+        <b>This is bold </b><i>This is Italic </i><u>This is underlined</u>
+    </p>
+    <big>BIG</big><br>
+    <small>small</small>
+    <hr>
+    <p>H<sub>2</sub>0</p>
+    <p>A <sup>2</sup>+ B <sup>2</sup></p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo rerum porro vero. Soluta dolores laborum, et accusamus, cum tenetur dolorum veniam necessitatibus aliquid in quae corrupti quisquam ratione, beatae commodi!</p>
+    <pre>Lorem ipsum,                                                                                                              dolor sit amet consectetur adipisicing elit. Delectus sunt atque hic. Minima iure voluptatum reiciendis, ipsum labore eligendi laboriosam, pariatur dolorem ipsa id similique doloremque excepturi reprehenderit, deleniti debitis!</pre>
+    <a href="/education.html">Education</a>
+    <a href="/experience.html">Experience</a>
+    <a href="/projects.html">Projects</a>
+    <header><h1>Virtual Exam Proctoring System</h1></header>
+    <main>
+        <section>Facial Recognition</section>
+        <article>Shortcut keys Detection</article>
+        <aside>Video Session Recording</aside>
+        <a href="https://www.google.com/" target="_main">Google</a> <!-- _main lets u open in new tab-->
+        <a href="https://www.google.com/">
+        <img src="/photo.jpeg " 
+        alt="Google" 
+        height="100"></a>
+        </img>
+    </a>
+    <div>
+        <p>Hello</p>
+        <p>Hi</p>
+    </div>
+    <div>
+        <p>tata</p>
+        <p>bye</p>
+    </div>
+    </main>
+    <footer><h6>Dept. of CS&E</h6></footer>
+    <header></header>
+    <main>
+        <ul>
+            <li>Apple</li>
+                <ul type="circle">
+                    <li>color : red</li>
+                    <li>season : winter</li>
+                </ul>
+            <li>Mango</li>
+                <ul type="square">
+                    <li>color : yellow</li>
+                    <li>season : summer</li>
+                </ul>
+        </ul>
+        <ol>
+            <li>Apple</li> <!--type 1 default-->
+                <ol type="a"> <!--type A for uppercase-->
+                    <li>color : red</li>
+                    <li>season : winter</li>
+                </ol>
+            <li>Mango</li>
+                <ol type="i"> <!--type I for upper roman numericals-->
+                    <li>color : yellow</li>
+                    <li>season : summer</li>
+                </ol>
+        </ol>
+        <table>
+            <thead>
+            <caption>Student Data</caption>
+            <tr>
+                <th colspan="2">INFORMATION</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Roll NO</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Usman</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Imran</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>Rayan</td>
+                <td>32</td>
+            </tr>
+        </tbody>
+        </table>
+        <form action="/action.php">
+            <h2>Registration Form</h2>
+            <input type="text" placeholder="username">
+            <label>
+            <input type="password" placeholder="password">
+            <h3>Select your class</h3>
+            <label for="101">
+                <input type="radio" value="class XI" name="class" id="101">class XI
+            </label>
+            <label for="102">
+                <input type="radio" value="class XII"name="class" id="102">class XII
+            </label>
+            <h3>Select your Subjects</h3>
+            <label for="phy">
+                <input type="checkbox" value="physics" name="phy" id="101">physics
+            </label>
+            <label for="che">
+                <input type="checkbox" value="chemistry" name="che" id="102">chemistry
+            </label>
+            <label for="math">
+                <input type="checkbox" value="mathematics" name="math" id="103">mathematics
+            </label>
+            <label for="cs">
+                <input type="checkbox" value="computer science" name="cse" id="104">computer science
+            </label><br><br>
+            <h3>Select your city</h3>
+            <select>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Delhi">Delhi</option>
+            </select>
+            <h3>Feedback</h3>
+            <textarea name="feedback" id="101" placeholder="write your feedback" rows="7"></textarea>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=OZJ-71-_jXt1I0a1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+        <iframe width="560" height="315" src="https://www.wikipedia.org/" frameborder="0"></iframe>
+        <br>
+        <video width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=OZJ-71-_jXt1I0a1" controls autoplay loop></video>
+        <form action="/contactme.php">
+            <h2>Contact Me</h2>
+            <input type="text" placeholder="name"><br>
+            <input type="text" placeholder="e mail"><br>
+            <textarea name="query" id="101" placeholder="write your query" rows="7"></textarea>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
