@@ -89,8 +89,8 @@ html/
 ## ✍️ Author
 
 **Mohammed Usman** – Aspiring Web Developer  
-- LinkedIn: linkedin.com/in/mohammedusman07(https://www.linkedin.com/in/mohammedusman07/)
-- Email: imailusman07@gmail.com  
+- LinkedIn: [linkedin.com/in/mohammedusman07](https://www.linkedin.com/in/mohammedusman07/)  
+- Email: [imailusman07@gmail.com](mailto:imailusman07@gmail.com)    
 
 ---
 
