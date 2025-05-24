@@ -46,6 +46,7 @@ _No build tools or dependencies required—just a modern web browser._
 
 ## 📂 File Structure
 
+<pre>
 html/
 ├── index.html # Landing page with links to all examples
 ├── hello.html # Basic “Hello, World!” with headings & paragraphs
@@ -59,7 +60,7 @@ html/
 ├── project2/
 │ └── signup.html # Simple signup form example
 ├── signup1.html # Alternate form layout & input validation hints
-
+</pre>
 
 ---
 
