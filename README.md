@@ -15,13 +15,13 @@ A hands-on beginner tutorial covering core HTML concepts and common tags, design
 7. [Author](#author)
 
 ---
-
+<a id="overview"></a>
 ## 🔍 Overview
 
 This tutorial is a self-guided collection of HTML example files that demonstrate basic yet essential elements of web pages—from headings and paragraphs to links, images, tables, forms, and layout containers. Each file focuses on a single concept to make learning modular and intuitive.
 
 ---
-
+<a id="what-youll-learn"></a>
 ## 🎯 What You’ll Learn
 
 - Semantic structure with **header** tags (`<h1>`–`<h6>`)  
@@ -33,7 +33,7 @@ This tutorial is a self-guided collection of HTML example files that demonstrate
 - Page layout using `<div>` and simple nesting  
 
 ---
-
+<a id="getting-started"></a>
 ## 🚀 Getting Started
 
 1. **Clone or download** this folder to your local machine.  
@@ -43,7 +43,7 @@ This tutorial is a self-guided collection of HTML example files that demonstrate
 _No build tools or dependencies required—just a modern web browser._
 
 ---
-
+<a id="file-structure"></a>
 ## 📂 File Structure
 
 <pre>
@@ -63,7 +63,7 @@ html/
 </pre>
 
 ---
-
+<a id="detailed-walkthrough"></a>
 ## 🔎 Detailed Walkthrough
 
 - **index.html** loads first and links to every example.  
@@ -74,7 +74,7 @@ html/
 - **signup.html** files walk through form elements, labels, placeholders, and submission basics.
 
 ---
-
+<a id="skills-practiced"></a>
 ## 🛠️ Skills Practiced
 
 - Crafting well-structured, semantic HTML  
@@ -85,11 +85,11 @@ html/
 - Organizing page content with `<div>`s and simple layouts  
 
 ---
-
+<a id="author"></a>
 ## ✍️ Author
 
 **Mohammed Usman** – Aspiring Web Developer  
-- GitHub: [github.com/usman-147](https://github.com/usman-147)  
+- LinkedIn: linkedin.com/in/mohammedusman07(https://www.linkedin.com/in/mohammedusman07/)
 - Email: imailusman07@gmail.com  
 
 ---
